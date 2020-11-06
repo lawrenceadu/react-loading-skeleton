@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { css, keyframes } from "@emotion/core";
 
 export const defaultBaseColor = "#eee";
@@ -63,7 +63,7 @@ export default function Skeleton({
     }
 
     elements.push(
-      <span
+      <div
         key={i}
         className={className}
         css={css`
@@ -76,12 +76,12 @@ export default function Skeleton({
         }}
       >
         &zwnj;
-      </span>
+      </div>
     );
   }
 
   return (
-    <span>
+    <Fragment>
       {Wrapper
         ? elements.map((element, i) => (
             <Wrapper key={i}>
@@ -90,7 +90,7 @@ export default function Skeleton({
             </Wrapper>
           ))
         : elements}
-    </span>
+    </Fragment>
   );
 }
 
