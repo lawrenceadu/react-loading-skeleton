@@ -1,8 +1,8 @@
 {
-  "name": "react-loading-skeleton",
-  "version": "2.1.1",
+  "name": "react-loading-skeleton-2",
+  "version": "1.0.0",
   "license": "MIT",
-  "author": "David Tang",
+  "author": "Lawrence Adu",
   "private": false,
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dvtng/react-loading-skeleton.git"
+    "url": "https://github.com/lawrenceadu/react-loading-skeleton.git"
   },
   "scripts": {
     "start": "yarn run storybook",
