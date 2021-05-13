@@ -2,7 +2,7 @@ import React from "react";
 import { mount } from "enzyme";
 import Skeleton from "./index";
 
-const skeletonSelector = "span.react-loading-skeleton";
+const skeletonSelector = "div.react-loading-skeleton";
 
 it("should render a skeleton", () => {
   const skeleton = mount(<Skeleton />);

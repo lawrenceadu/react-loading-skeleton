@@ -1,15 +1,15 @@
-# react-loading-skeleton-2
+# react-loading-skeleton
 
-Make beautiful, animated loading skeletons that automatically adapt to your app. Forked from `react-loading-skeleton`
+Make beautiful, animated loading skeletons that automatically adapt to your app.
 
 ![Gif of skeleton in action](https://media.giphy.com/media/l0Iyk4bAAjac3AU2k/giphy.gif)
 
 ## Basic usage
 
-Install by `npm`/`yarn` with `react-loading-skeleton-2`.
+Install by `npm`/`yarn` with `react-loading-skeleton`.
 
 ```javascript
-import Skeleton from 'react-loading-skeleton-2';
+import Skeleton from 'react-loading-skeleton';
 
 <Skeleton/> // Simple, single-line loading skeleton
 <Skeleton count={5}/> // Five-line loading skeleton
